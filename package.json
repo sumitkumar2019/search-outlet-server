@@ -1,0 +1,19 @@
+{
+  "name": "search-outlet-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tmcw/togeojson": "^3.0.1",
+    "express": "^4.17.1",
+    "geolib": "^3.0.4",
+    "http": "0.0.0",
+    "nodemon": "^1.19.1",
+    "xmldom": "^0.1.27"
+  }
+}
