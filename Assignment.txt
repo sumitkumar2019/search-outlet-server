@@ -1,0 +1,34 @@
+Full Stack Developer - Practical Test : Honest Food Company
+
+
+
+It is essential for Honest Food to be able to route incoming orders to the correct outlet depending on predefined delivery area polygons and the customer’s shipping address.
+
+
+Develop an API which accepts a customer location as an input parameter and returns the correct outlet identifier for the input location.
+
+Develop a frontend which allows a user to enter and submit an address and then displays the outlet identifier returned from the API.
+
+
+You may use any freely available 3rd party geospatial services and/or open source components.
+
+You should build your API with NodeJS and your frontend with any framework of your choice. 
+
+Your deliverables should include the full source code and usage instructions.
+
+In case your solution is incomplete or you are aware of any defects, add a detailed description about how your solution could be improved.
+
+You have 4 hours to complete this task and submit your deliverables to milosha.faria@honestfoodcompany.de
+
+
+Assets:
+See the following link for a KML file containing delivery area polygons and names: https://drive.google.com/file/d/1UQWDO-ObrcOE_IIjxrk3JBA-vv1gHMy4/view?usp=sharing
+
+
+Test cases:
+Input: “Stumpergasse 51, 1060 Vienna” 		Output: au_vienna_schoenbrunnerstr
+Input: “Ungargasse 17, Vienna, Austria” 		Output: au_vienna_landstrasserhauptstr
+Input: “Linzer Straße 7, Vienna, Austria” 		Output: au_vienna_dreyhausenstr
+Input: “Maurer Hauptplatz 7, 1230 Wien, Austria” 	Output: au_vienna_maurerhauptplatz
+Input: “Bahnhofplatz 1, Linz, Austria”			Output: not found
+Input: “Quadenstraße 5, 1200 Vienna”		Output: not found
